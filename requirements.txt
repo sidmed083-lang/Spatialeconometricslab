@@ -1,0 +1,14 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+shapely>=2.0
+pyproj>=3.5
+pyogrio>=0.7
+geopandas>=0.14
+libpysal>=4.9
+esda>=2.5
+spreg>=1.4
+folium>=0.15
+streamlit>=1.30
+streamlit-folium>=0.18
+plotly>=5.18

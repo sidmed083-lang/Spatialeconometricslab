@@ -1,2 +1,14 @@
-# Spatialeconometricslab
-Interactive spatial econometrics and GIS platform in Python. Spatial weights, Moran’s I, Geary’s C, LISA and Getis-Ord Gi*, plus OLS, SAR, SEM and SDM regression, built on GeoPandas, PySAL and Folium with a Streamlit dashboard.
+# SpatialEconometricsLab
+
+Interactive spatial econometrics and GIS analysis platform built on GeoPandas, PySAL, Folium and Streamlit.
+
+> **Status: under development.** Stage 2 (spatial data layer) is complete. Weights, autocorrelation,
+> regression, maps and the Streamlit UI follow in later stages. The full README is written in Stage 8.
+
+## Development setup
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -e ".[dev]"
+pytest
+```
